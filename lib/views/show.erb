@@ -1,0 +1,12 @@
+
+<html>
+  <head>
+    <title>PAGE POTIN</title>
+  </head>
+  <body>
+    <h1>Voici la page du potin n°<%=params["id"].to_i%></h1>
+    <p>Son auteur :<%=gossips.author%></p>
+    <p>Le contenu du potin :<%=gossips.content%></p>
+    <a href="/gossips/new/">Retour à l'accueil</a>
+  </body>
+</html>
